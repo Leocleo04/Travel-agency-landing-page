@@ -1,0 +1,22 @@
+
+    @import 'config';
+    @import 'mixin';
+
+    body {
+        background-color: $bg-color;
+        color: $text-color;
+        font-family: $font1;
+    }
+
+    a {
+        text-decoration: none;
+        color: $text-color;
+    }
+
+    header {
+        @include NavBar($primary-color, $text-color, $bg-color );
+    }
+
+    section {
+        @include section($primary-color, $secondary-color, $text-color);
+    }

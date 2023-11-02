@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before,
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$primary-color: orange;
+$secondary-color: #e7607b;
+$text-color: black;
+$bg-color: white;
+$play-color: red;
+
+$btn-hover-bg: orange;
+
+$font1: Sans-serif;
